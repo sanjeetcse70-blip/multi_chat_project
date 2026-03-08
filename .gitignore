@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Environment & secrets
+.env
+.env_copy
+*.json
+!requirements.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Test files
+test_firebase.py
+write_test_doc.py
+testing.py
+
+# Archives & duplicates
+*.zip
+project_code/

@@ -1,0 +1,9 @@
+openai
+python-dotenv
+google-generativeai
+firebase-admin>=6.0.0
+google-cloud-firestore>=2.11.0
+google-cloud-storage>=2.10.0
+streamlit
+requests
+streamlit-google-auth

@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: multi-llm-chat
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.13.5"
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: FIREBASE_CREDENTIALS
+        sync: false
+      - key: GOOGLE_OAUTH_CREDENTIALS
+        sync: false
+      - key: REDIRECT_URI
+        sync: false

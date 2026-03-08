@@ -1,0 +1,19 @@
+Now, I need a Database for my project.
+I want to use Firebase, give me complete list of steps to set up Firebase for my project.
+Include steps for going to Google Cloud Console, creating a project, enabling Firebase, and integrating it with my application.
+Put all these steps in a clear and concise manner, in a firebase_setup file
+
+We have created the Firebase datsbase, and added the key to our project.
+Key is in file: multi-llm-chat-487415-firebase-adminsdk-fbsvc-7ee1f7cdc6.json
+We have created a collection named'testing' in our Firebase database.
+Test the firebase integration by writing a simple script to connect to the database and perform a read/write operation.
+
+So, Firebase setup is working, now we need to connec tour Multi-LLM Chat application to Firebase.
+We need to setup the sign-up and login functionality using Firebase Authentication.
+We also need to set up Firestore to store user data and chat history.
+We have a collection named 'users' to store user chat history and other relevant information.
+For each user, we will create a document in the 'users' collection with their unique user ID as the document ID.
+Inside each user doc, we will have a subcollection named 'chat_history' to store the user's chat interactions.
+For each chat interaction, we will create a document in the 'chat_history' subcollection with a timestamp as the document ID and the chat content as the document data.
+We need to create a simple UI for the sign-up and login functionality, and integrate it with Firebase Authentication.
+Then a chat interface to display the chat history and allow users to interact with the Multi-LLM Chat application, while storing the chat interactions in Firestore.
